@@ -1,0 +1,162 @@
+body {
+  padding: 10px;
+  text-align: center;
+}
+
+h1{
+  color: darkblue;
+  font-family: 'Londrina Outline', sans-serif;
+  font-size: 5em;
+  font-weight: bolder;
+  margin: 0;
+}
+p{
+  font-weight: bold;
+}
+
+.convo-and-faces{
+  display: flex;
+  height: 90vh;
+  /*border: 2px red solid;*/
+}
+
+.convo{
+  flex: 1;
+  border: 3px hotpink double;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: scroll;
+}
+
+#convo-set{
+  font-size: 1.2em;
+}
+
+button{
+  color: darkblue;
+  background-color: white;
+  font-size: 1em;
+  border: 2px darkblue outset;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#face-box{
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.four {
+  flex: 1;
+  min-height: 150px;
+  /*min-width: 50px;*/
+  width: 100%;
+  /*border: 3px black solid;*/
+  display: flex;
+
+}
+
+.face {
+  flex: 1;
+  /*height: 30px;*/
+  border: 1px blue solid;
+  height: 100%;
+  margin: 5px;
+}
+
+#adele{
+  background-image: url('images/adele.png');
+  background-size: 100% 100%;
+}
+
+#brad-pitt{
+  background-image: url('images/brad.png');
+    background-size: 100% 100%;
+}
+
+#marilyn-monroe{
+  background-image: url('images/marilyn.png');
+  background-size: 100% 100%;
+}
+
+#kim-kardashian{
+  background-image: url('images/kim.png');
+  background-size: 100% 100%;
+}
+
+#angelina-jolie{
+  background-image: url('images/angelina.png');
+  background-size: 100% 100%;
+}
+
+#george-clooney{
+  background-image: url('images/clooney.png');
+    background-size: 100% 100%;
+}
+
+#leonardo-dicaprio{
+  background-image: url('images/leo.png');
+    background-size: 100% 100%;
+}
+
+#kanye-west {
+  background-image: url('images/kanye.png');
+    background-size: 100% 100%;
+}
+
+#mohammed-ali {
+  background-image: url('images/ali.png');
+    background-size: 100% 100%;
+}
+
+#elvis-presley{
+  background-image: url('images/elvis.png');
+    background-size: 100% 100%;
+}
+
+#whitney-houston{
+  background-image: url('images/whitney.jpg');
+    background-size: 100% 100%;
+}
+
+#alan-rickman{
+  background-image: url('images/alan.jpg');
+    background-size: 100% 100%;
+}
+
+.gray-out {
+  color: lightgray;
+}
+
+#win-screen {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(50,0,40, 0.95);
+  padding-top: 200px;
+  font-size: 3em;
+  font-family: helvetica sans-serif;
+  color: white;
+
+}
+
+
+@media (max-width: 700px){
+  h1 {
+    font-size: 2em;
+  }
+
+  span {
+    font-size: 0.8em;
+  }
+  .face {
+  height: 145px;
+  min-width: 50px;
+  border: 3px gold outset;
+  }
+}

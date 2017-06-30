@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Guess who</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Londrina+Outline|Monofett|Overpass|Pacifico" rel="stylesheet">
+  <script src="main.js"></script>
+</head>
+<body>
+  <div id='container'>
+    <h1>Celebrity Guess Who</h1>
+    <p>In your mind, select one of the faces you see below. Then the computer will ask you a series of questions and try to guess your selection!</p>
+    <div class='convo-and-faces'>
+      <div class='convo' id='convo'>
+        <div id='conversation'><span id='convo-set'>Answer my questions and I will guess your pick!</span></div>
+        <button id='yesButton'>Yes</button>
+        <button id='noButton'>No</button>
+      </div>
+
+      <div id='face-box'>
+        <div class='four'>
+          <div class='face nofacial female singer blond nonactor alive non' id='adele'></div>
+          <div class='face male actor blond facial alive non' id='brad-pitt'></div>
+          <div class='face nofacial female blond actor singer dead non' id='marilyn-monroe'></div>
+          <div class='face no facial female brunette nonactor alive non' id='kim-kardashian'></div>
+        </div>
+        <div class='four'>
+          <div class='face nofacial female actor brunette alive non' id='angelina-jolie'></div>
+          <div class='face nofacial male actor alive brunette' id='george-clooney'></div>
+          <div class='face male actor facial oscar alive blond' id= 'leonardo-dicaprio'></div>
+          <div class='face male singer facial nonactor alive brunette non' id='kanye-west'></div>
+        </div>
+        <div class='four'>
+          <div class='face nofacial male boxer nonactor dead brunette non' id='mohammed-ali'></div>
+          <div class='face nofacial male singer actor dead brunette non' id='elvis-presley'></div>
+          <div class='face nofacial female singer actor dead brunette non' id='whitney-houston'></div>
+          <div class='face nofacial male actor dead brunette non' id='alan-rickman'></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id='win-screen'>Game Over.<br> I guessed your celebrity pick!<br><br><br> :)
+  <!-- make a div in here that gets an image appended to it. the image appended to it
+  should have a src that is equal to a the src of querySelectorAll(.face).style.background !== 'dimgray'  -->
+  </div>
+
+</body>
+</html>
