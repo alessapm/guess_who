@@ -8,3 +8,5 @@ Pick one of the displayed celebrities in your mind and answer a few questions. I
 * HTML
 * CSS
 * JavaScript
+
+## Check it out here: [Celebrity Guess Who](https://alessapm.github.io/guess_who/)
